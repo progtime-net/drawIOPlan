@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-13T09:41:05.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="86MgbiGtU1X50Ud82aDr" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-13T09:51:04.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="zeLo8u6O8nBBQLsI5CV4" version="21.6.8" type="github">
   <diagram name="Страница — 1" id="f_F7iRd8bz5ZMpvOUA9e">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,17 +103,23 @@
         <mxCell id="XWFfK2Fauw3tl5iLi8N0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="l3I8TJyxNjZKPvzpjshA-47" target="l3I8TJyxNjZKPvzpjshA-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XWFfK2Fauw3tl5iLi8N0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="l3I8TJyxNjZKPvzpjshA-47" target="XWFfK2Fauw3tl5iLi8N0-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="l3I8TJyxNjZKPvzpjshA-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GameManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Регистрирует все объекты в менеджерах&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="360" y="70" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XWFfK2Fauw3tl5iLi8N0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="XWFfK2Fauw3tl5iLi8N0-4" target="l3I8TJyxNjZKPvzpjshA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XWFfK2Fauw3tl5iLi8N0-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Animator&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Содержит в себе листы с текстурами. Объекты обращаются к аниматору для получения состояния текстуры&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="170" height="110" as="geometry" />
+          <mxGeometry x="100" y="455" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XWFfK2Fauw3tl5iLi8N0-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;InputManager&lt;/p&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Преобразует нажатия клавиш в сигналы для действий&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="580" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWFfK2Fauw3tl5iLi8N0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="XWFfK2Fauw3tl5iLi8N0-8" target="l3I8TJyxNjZKPvzpjshA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWFfK2Fauw3tl5iLi8N0-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SoundManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Содержит в себе все звуки и метод, который их проигрывает&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
