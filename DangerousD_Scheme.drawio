@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T13:25:36.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="mi94hHY789rSB3HQdpy2" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T13:27:58.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="uY2uDwep2GoxjAkjyusB" version="21.6.8" type="github">
   <diagram name="Страница — 1" id="98q6O0aFMQCR1bf1YkXJ">
-    <mxGraphModel dx="808" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,9 @@
         <mxCell id="n8sBWdLB9CzdTx279Akv-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8sBWdLB9CzdTx279Akv-76" target="n8sBWdLB9CzdTx279Akv-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="n8sBWdLB9CzdTx279Akv-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8sBWdLB9CzdTx279Akv-76" target="n8sBWdLB9CzdTx279Akv-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n8sBWdLB9CzdTx279Akv-76" value="AbsctractGui" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="240" width="160" height="82" as="geometry" />
         </mxCell>
@@ -142,7 +145,7 @@
           <mxGeometry y="56" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="n8sBWdLB9CzdTx279Akv-81" value="MenuGui" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="394" width="160" height="56" as="geometry" />
+          <mxGeometry x="650" y="396" width="160" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8sBWdLB9CzdTx279Akv-84" value="+ void CreateUI()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="n8sBWdLB9CzdTx279Akv-81">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -260,6 +263,12 @@
         </mxCell>
         <mxCell id="n8sBWdLB9CzdTx279Akv-164" value="+ double GetDisatance(Vector2 playerPos)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="n8sBWdLB9CzdTx279Akv-50">
           <mxGeometry y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n8sBWdLB9CzdTx279Akv-189" value="LoginGui" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="396" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8sBWdLB9CzdTx279Akv-190" value="+ void CreateUI()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="n8sBWdLB9CzdTx279Akv-189">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
